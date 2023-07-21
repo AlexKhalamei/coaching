@@ -1,0 +1,52 @@
+@mixin main_title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 112.5%;
+}
+@mixin h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 114.286%;
+}
+@mixin h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 125%;
+}
+@mixin text {
+  font-size: 18px;
+  line-height: 177.778%;
+  font-weight: 400;
+}
+@mixin btn {
+  display: flex;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  border: 2px solid var(--stroke-for-button, #fbeabb);
+  background: var(
+    --gold-linear,
+    linear-gradient(349deg, #e2b45c 0.22%, #fddc7f 100%)
+  );
+  box-shadow: -4px -4px 10px 0px #e9be68 inset;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 177.778%;
+  text-decoration: none;
+}
+
+@mixin gold-line {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -32px;
+  width: 160px;
+  height: 5px;
+  background: linear-gradient(349deg, #e2b45c 0.22%, #fddc7f 100%);
+
+  @media (max-width: 1199px) {
+    bottom: -16px;
+  }
+}
