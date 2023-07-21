@@ -717,7 +717,7 @@ a.disabled {
   }
 }
 .main__body .space {
-  background: url("images/space.jpg") center/cover no-repeat;
+  background: url("../images/space.jpg") center/cover no-repeat;
   padding: 120px 0;
 }
 @media (max-width: 767px) {
@@ -934,7 +934,7 @@ a.disabled {
   }
 }
 .main .fullscreen {
-  background: url("images/main-bg.jpg");
+  background: url("../images/main-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
